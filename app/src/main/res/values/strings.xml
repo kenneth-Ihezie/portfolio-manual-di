@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">My Portfolio</string>
+    <string name="item" />
+    <string name="cost" />
+    <string name="time" />
+    <string name="expenses" />
+    <string name="myportfolio">My Portfolio</string>
+    <string name="empty" />
+    <string name="item_portfolio">Item</string>
+    <string name="cost_portfolio">Cost</string>
+    <string name="time_portfolio">Time</string>
+    <string name="item_Portfolio">Item</string>
+    <string name="time_Portfolio">Time</string>
+    <string name="cost_Product">Cost</string>
+    <string name="set_time">Set Time</string>
+    <string name="edit">Edit</string>
+    <string name="item_name">Item Name</string>
+    <string name="cost_of_item">Cost of Item</string>
+    <string name="time_of_purchase">Time of purchase</string>
+    <string name="clear_all">Clear all</string>
+    <string name="add_time">Add Time</string>
+    <string name="my_portfolio">You can check your portfolios here</string>
+    <string name="header">Header</string>
+    <string name="recent_transactions">Total cost </string>
+    <string name="date">Date</string>
+    <string name="date_portfolio">Date</string>
+    <string name="last_updated">Last Updated</string>
+    <string name="date_updated">Recent Date</string>
+    <string name="welcome">Welcome Back</string>
+    <string name="fillin">Fill your portfolio</string>
+    <string name="add_portfoio">Add Portfolio</string>
+    <string name="fab">Fab</string>
+    <string name="delete">Delete</string>
+    <string name="dollar">$</string>
+</resources>

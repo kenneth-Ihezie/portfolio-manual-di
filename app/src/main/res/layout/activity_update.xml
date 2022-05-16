@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.UpdateActivity">
+
+    <EditText
+        android:id="@+id/itemPort_update"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:autofillHints=""
+        android:background="@drawable/button"
+        android:ems="10"
+        android:hint="@string/item_Portfolio"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@id/costPort_update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/costPort_update"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:autofillHints=""
+        android:background="@drawable/button"
+        android:ems="10"
+        android:hint="@string/cost_Product"
+        android:inputType="number"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@id/datePortfolio_update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/datePortfolio_update"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:autofillHints=""
+        android:background="@drawable/button"
+        android:hint="@string/date"
+        android:inputType="date"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@id/addTime_update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/addTime_update"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/timePort_update"
+        app:layout_constraintStart_toStartOf="@+id/timePort_update"
+        app:layout_constraintTop_toTopOf="@id/timePort_update"
+        app:srcCompat="@drawable/ic_access_time_black_24dp"
+        tools:ignore="VectorDrawableCompat"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/timePort_update"
+        android:layout_width="179dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="170dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:hint="@string/add_time"
+        android:padding="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/portfolio_addUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_updatepurple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_updatedarkpurple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/circle3"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/imageView_updatedarkpurple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_updateblue"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_updatepurple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle2"
+        android:contentDescription="@string/app_name"/>
+
+    <ImageView
+        android:id="@+id/imageView_updateblue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_updatedarkpurple"
+        app:srcCompat="@drawable/circle1"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView_updateblue"
+        app:layout_constraintEnd_toEndOf="@+id/imageView_updateblue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/fillin"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/itemPort_update"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/portfolio_addUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/fillin"
+        android:text="@string/add_portfoio"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
